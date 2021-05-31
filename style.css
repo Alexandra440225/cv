@@ -1,0 +1,166 @@
+/* style.css */
+body {
+  background: rgb(248,248,248);
+  color: black;
+  margin: 5px;
+  font-size: 13px;
+  font-family: Verdana;
+  
+}
+
+h1 {
+  color: #00000;
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: right;
+ 
+} 
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-indent: 5px;
+
+}
+
+h3 {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: right;
+} 
+
+h4 {
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+
+}
+.btnmail{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px grey;
+  
+  
+}
+
+.btnmail:hover {
+  background-color: white;
+  opacity: 0.8;
+  border: 1px solid black;
+}
+
+
+
+mark {
+  background-color: black;
+  color: white;
+}
+
+p {
+	text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#conteneur {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: auto;
+  height: auto;
+}
+
+
+.element:nth-child(2){
+   text-align: center;
+   align-items: bottom;
+   padding: 25px;
+}
+
+
+.element:nth-child(4){
+  background-color: #FDD603;
+}
+
+
+.element:nth-child(5){
+  background-color: #FDD603;
+  
+}
+
+.element:nth-child(6){
+  background-color: #FDD603;
+  
+
+
+}
+
+.imageflottante{
+    float: left;
+}
+
+td{
+  vertical-align: top;
+
+}
+
+.ci{
+  margin-top: 50px;
+}
+
+.missions{
+  color: red;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.junior{
+  list-style-type: none;
+  margin-right: 45px;
+  text-align: right;
+  
+
+}
+figure{
+ text-align: right;
+}
+
+footer {
+  background-color: white;
+  text-align: right;
+  margin-right: 50px;
+}
+
+/*les écrans de largeur inférieure à 992 pixels*/
+@media(max-width: 992px){
+  #conteneur{
+  width: 750px;
+  grid-template-columns: 1fr;
+  }
+}
+
+/*les écrans de largeur inférieure à 768 pixels*/
+@media(max-width: 768px){
+  #conteneur{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
