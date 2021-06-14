@@ -17,14 +17,6 @@ h1 {
 } 
 
 h2 {
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: left;
-  text-indent: 5px;
-
-}
-
-h3 {
   color: red;
   font-weight: bold;
   font-size: 15px;
@@ -32,6 +24,13 @@ h3 {
   text-align: right;
 } 
 
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  text-indent: 5px;
+  
+}
 h4 {
   font-weight: bold;
   color: black;
